@@ -21,7 +21,7 @@
             return "$number1 est plus petit que $number2";
         }
         return "$number1 est égale à $number2";
-    }
-    ?>  
+    }?>
+    <p><?=result($number1,$number2);?></p>    
 </body>
 </html>
