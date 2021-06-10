@@ -9,8 +9,6 @@
 <body>
     <h1>Exercice 4 Partie 4 : Les fonctions PHP</h1>
     <?php
-    $number1 = 12;
-    $number2 = 8;
     function result($number1,$number2) : string {
         if ($number1 > $number2)
         {
@@ -22,6 +20,6 @@
         }
         return "$number1 est égale à $number2";
     }?>
-    <p><?=result($number1,$number2);?></p>    
+    <p><?=result(48,48);?></p>    
 </body>
 </html>
